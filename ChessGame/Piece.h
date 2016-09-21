@@ -4,6 +4,7 @@
 class Piece
 {
 public:
+	void movePiece();
 	std::string name;
 	enum color {};
 	Piece();
